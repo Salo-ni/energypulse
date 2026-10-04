@@ -218,3 +218,43 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ============================================
+# EnergyPulse Project
+# ============================================
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local data
+data/bronze/
+data/silver/
+data/gold/
+
+# Logs
+logs/
+*.log
+
+# Airflow
+airflow/logs/
+airflow/airflow.db
+airflow/airflow.cfg
+
+# dbt
+dbt/target/
+dbt/logs/
+dbt_packages/
+
+# Spark
+spark/checkpoints/
+spark/spark-warehouse/
+
+# Project-specific temporary files
+tmp/
+temp/
+
+# OS files
+.DS_Store
+Thumbs.db
